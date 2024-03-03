@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokemonApi Project</title>
+    <link rel="stylesheet" type="text/css" href="pokiApi.css">
+</head>
+<body>
+
+    <h2>PokemonApi Project</h2>
+    <div class="o1">
+        <p>DO U WANT POKEMON</p>
+        <button onclick="showByName()">By Name</button>
+        <button onclick="showByType()">By Type</button>
+
+        <div class="nameInput">
+            <p>Enter a name of pokemon</p>
+            <input type="text" id="pokemonNameInput" placeholder="pokemon Name">
+            <button onclick="searchPokemonByName()">Search</button>
+            <div id="pokemonNameDetails"></div>
+        </div>
+
+        <div class="typeInput">
+            <p>Enter a type of pokemon</p>
+            <input type="text" id="pokemonTypeInput" placeholder="pokemon Type">
+            <button onclick="searchPokemonByType()">Search</button>
+            <div id="pokemonTypeDetails"></div>
+        </div>
+    </div>
+
+    <script src="poki.js"></script>
+</body>
+</html>
